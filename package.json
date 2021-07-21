@@ -1,0 +1,15 @@
+{
+    "name": "task-manager",
+    "version": "1.0.0",
+    "description": "task managing",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
+    gi "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zod13rk/task-manager.git"
+    },
+    "author": "zodiark",
+    "license": "MIT"
+}
