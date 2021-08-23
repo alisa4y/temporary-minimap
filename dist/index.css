@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(12, 184, 104);
+}
+
+header {
+    width: 50%;
+    height: 200px;
+    margin: 3rem auto;
+    background-color: aquamarine;
+}
+
+main {
+    width: 100%;
+    height: 3500px;
+    background-color: burlywood;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: gainsboro;
+}

@@ -1,15 +1,24 @@
 {
-    "name": "task-manager",
+    "name": "minimap",
     "version": "1.0.0",
-    "description": "task managing",
-    "main": "index.js",
+    "description": "make minimap",
+    "private": true,
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
-    }
-    gi "repository": {
-        "type": "git",
-        "url": "git+https://github.com/zod13rk/task-manager.git"
     },
-    "author": "zodiark",
-    "license": "MIT"
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/alisa4y/temporary-minimap.git"
+    },
+    "author": "ali safary",
+    "license": "MIT",
+    "devDependencies": {
+        "source-map-loader": "^3.0.0",
+        "ts-loader": "^9.2.5",
+        "ts-node": "^10.2.0",
+        "typescript": "^4.3.5",
+        "webpack": "^5.48.0",
+        "webpack-cli": "^4.7.2",
+        "webpack-dev-server": "^3.11.2"
+    }
 }
